@@ -1,4 +1,4 @@
-import { createMachine, interpret } from 'xstate';
+import { Machine, interpret } from 'xstate';
 
 const lightMachine = Machine({
   id: 'changeLight',
